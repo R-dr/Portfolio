@@ -1,0 +1,131 @@
+.bg-salmon{
+  font-size: 18px;
+  background-color: rgb(254, 231, 218)
+}
+.welcome h1 {
+  padding-top: 1.11rem;
+  font-size: 7rem;
+  font-family:"Abril Fatface", sans-serif;
+}
+.caption {
+  font-style: italic;
+  font-family:"Merriweather", serif;
+  color:#212121;
+  text-align:right;
+}
+#red {color: crimson;}
+
+#socials .fa-facebook:hover{color:rgb(3, 3, 223)}
+ #socials .fa-twitter-square:hover{color:rgb(0, 145, 255)}
+ #socials .fa-github:hover{color:rgb(177, 7, 220)}
+ .title{
+  padding-right: 1.4rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.44rem;
+  color: #10b0d8;
+  line-height:.87;
+  text-align: center;
+}
+.content {
+ background-color:white;
+  color:  inherit;
+  font-family:"Work Sans", serif;
+  border-radius:12px;
+  padding-bottom: 2.77rem;
+  font-size: 1.5rem;
+  line-height:1.4;
+}
+
+.content a{
+    text-decoration: none;
+    color:crimson;
+  }
+.content a:hover{
+  color:#10b0d8;
+
+}
+.image{
+  width: 75%;
+  padding: 1.11rem;
+  border-radius: 5px;
+  margin: 0 auto 4.44rem auto;
+  background-color: white;
+}
+.image .hero-container{
+  overflow: hidden;
+  margin-bottom: 1.11rem;
+}
+.image .hero-container img{
+  width: 100%;
+}
+
+footer{
+  background: #212121e3;
+  padding: 2rem;
+  color:#9b8009e3;
+}
+
+footer h5{
+  text-align: center;
+}
+
+footer h6{
+  text-align: center;
+}
+.socials{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin:0 auto;
+}
+.socials a{
+  font-size: 3.5rem;
+  color:#9b8009ca;
+  
+  display: inline-block;
+}
+.socials .fa-facebook:hover{color:rgb(3, 3, 223)}
+.socials .fa-twitter-square:hover{color:rgb(0, 145, 255)}
+.socials .fa-github:hover{color:rgb(177, 7, 220)}
+.modal{
+  margin: 0 25% 4rem 25%;
+}
+
+/* modal centering */
+.vertical-alignment-helper {
+  display:table;
+  height: 100%;
+  width: 100%;
+  pointer-events:none;}
+  
+  .vertical-align-center {
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events:none;}
+  
+  .modal-content {
+  width:inherit;
+  max-width:inherit;  
+  height:inherit;
+  /* To center horizontally */
+  margin: 0 auto;
+  pointer-events:all;}
+@media only screen and (max-width: 680px) {
+  .content {
+    padding: 0 10% 4rem 10%;
+  }
+  .welcome h1 {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 440px){
+  .content{
+    padding:0;
+    margin:0 5% 2rem 5%;
+    
+  }
+  .welcome h1 {
+    font-size: 3rem;
+  }
+}
